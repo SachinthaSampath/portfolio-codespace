@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio_bg_1.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "ring binders aligned";
 
 /**
  * Project list
@@ -31,28 +31,32 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Associate Software Engineer at WireApps",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Started as an Intern on 2023 and currently working as an Associate Software Engineer (Full Stack).",
+    url: "#",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Reading for MSc (IT-EAD)",
+    description: "Reading for a Master's Degree in IT, specialized in Enterprise Application Development at SLIIT.",
+    url: "#",
   },
   {
-    title: "My Resume Site",
+    title: "Assistant Lecturer at ESOFT",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Started working at ESOFT on 2021 as a Tutor and promoted to an Assistenat Lecturer, Program Coordinator in 2022 and continued work until 2023.",
+    url: "#",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "ESOFT Toastmasters Club",
+    description:"Former President of the ESOFT Toastmaster Club from October 2021 to March 2022. Also served as the Vice President of Public Relations from April 2021 to September 2021.",
+    url: "#",
+  },
+  {
+    title: "Graduated in BIT (UCSC)",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Graduated with a Second Class (Upper Division) degree with the highest GPA in the batch (2020) and achieved the Prof. V.K. Samaranayake Memorial Medal for the best performance. Also achieved all Best e-Learner awards given for semesters.",
+    url: "#",
   },
 ];
 

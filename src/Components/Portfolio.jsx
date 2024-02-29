@@ -38,7 +38,8 @@ const projectList = [
   },
   {
     title: "Reading for MSc (IT-EAD)",
-    description: "Reading for a Master's Degree in IT, specialized in Enterprise Application Development at SLIIT.",
+    description:
+      "Reading for a Master's Degree in IT, specialized in Enterprise Application Development at SLIIT.",
     url: "#",
   },
   {
@@ -49,7 +50,8 @@ const projectList = [
   },
   {
     title: "ESOFT Toastmasters Club",
-    description:"Former President of the ESOFT Toastmaster Club from October 2021 to March 2022. Also served as the Vice President of Public Relations from April 2021 to September 2021.",
+    description:
+      "Former President of the ESOFT Toastmaster Club from October 2021 to March 2022. Also served as the Vice President of Public Relations from April 2021 to September 2021.",
     url: "#",
   },
   {
@@ -68,7 +70,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideInLeft",
+            }}
             alt={imageAltText}
           />
         </div>
